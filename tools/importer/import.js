@@ -237,6 +237,8 @@ export default {
       makeAbsoluteLinks(main, 'https://main--pga-dominion-energy-charity-classic--hlxsites.hlx.page', '/champions/tournaments/dominion-energy-charity-classic');
     } else if (u.pathname.startsWith('/tournaments/charles-schwab-cup-championship')) {
       makeAbsoluteLinks(main, 'https://main--pga-charles-schwab-cup-championship--hlxsites.hlx.page', '/champions/tournaments/charles-schwab-cup-championship');
+    } else if (u.pathname.startsWith('/korn-ferry-tour/tournaments/korn-ferry-tour-q-school')) {
+      makeAbsoluteLinks(main, 'https://main--pga-korn-ferry-tour--hlxsites.hlx.page', '/champions/korn-ferry-tour/tournaments/korn-ferry-tour-q-school');
     } else {
       makeAbsoluteLinks(main, 'https://www.theplayers.com/');
     }
