@@ -122,7 +122,7 @@ export default async function decorate(block) {
     const nav = document.createElement('nav');
     nav.innerHTML = html;
 
-    const classes = ['brand', 'sections', 'social', 'tour', 'user'];
+    const classes = ['brand', 'sections', 'tour'];
     classes.forEach((c, i) => {
       const section = nav.children[i];
       if (section) section.classList.add(`nav-${c}`);
@@ -159,7 +159,7 @@ export default async function decorate(block) {
     nav.setAttribute('aria-expanded', 'false');
 
     wrapImgsInLinks(nav);
-    setupUser(nav.querySelector('.nav-user'));
+    // setupUser(nav.querySelector('.nav-user'));
 
     decorateIcons(nav);
     decorateLinkedPictures(nav);

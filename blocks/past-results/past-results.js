@@ -4,11 +4,12 @@ const PGATOUR_URL = 'https://www.pgatour.com';
 
 async function buildReqUrl(param) {
   const placeholders = await fetchPlaceholders();
-  return `${PGATOUR_URL}/tournaments/${placeholders.adsS3}/past-results/jcr:content/mainParsys/pastresults.selectedYear.${param}.html`;
+  return `${PGATOUR_URL}/korn-ferry-tour/tournaments/${placeholders.adsS3}/past-results/jcr:content/mainParsys/pastresults.selectedYear.${param}.html`;
 }
 
 async function refreshResults(block, param) {
   const reqUrl = await buildReqUrl(param);
+  console.log('req:', reqUrl);
   const resp = await fetch(`https://little-forest-58aa.david8603.workers.dev/?url=${encodeURIComponent(reqUrl)}`);
   if (resp.ok) {
     const html = await resp.text();
