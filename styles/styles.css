@@ -314,7 +314,7 @@ main .section > .default-content-wrapper h3,
 main .section > .default-content-wrapper h4,
 main .section > .default-content-wrapper h5,
 main .section > .default-content-wrapper h6 {
-  color: var(--color-blue);
+  color: var(--color-black);
   text-align: center;
   text-transform: uppercase;
 }
