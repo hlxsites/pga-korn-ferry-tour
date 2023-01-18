@@ -738,13 +738,8 @@ initHlx();
  */
 
 const LCP_BLOCKS = ['carousel', 'hero']; // add your LCP blocks to the list
-<<<<<<< HEAD
 const RUM_GENERATION = 'project-1'; // add your RUM generation information here
 const PRODUCTION_DOMAINS = ['www.pgatour.com/korn-ferry-tour/tournaments/korn-ferry-tour-q-school'];
-=======
-const RUM_GENERATION = 'intercept-aa-2'; // add your RUM generation information here
-const PRODUCTION_DOMAINS = ['www.theplayers.com'];
->>>>>>> upstream/main
 
 sampleRUM('top');
 window.addEventListener('load', () => sampleRUM('load'));
