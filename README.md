@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--pga-korn-ferry-tour--hlxsites.hlx.page/
-- Live: https://main--pga-korn-ferry-tour--hlxsites.hlx.live/
+- Preview: https://main--pga-korn-ferry-tour-q-school--hlxsites.hlx.page/
+- Live: https://main--pga-korn-ferry-tour-q-school--hlxsites.hlx.live/
 - Producion: https://www.pgatourqschool.com
 
 ## Installation
